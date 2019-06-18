@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cae39b517b102825bd9ec860112805f0",
+    "revision": "a08be144b9d07404cdc79eaf16dc1478",
     "url": "/real-time-chart/index.html"
   },
   {
-    "revision": "df0a7efcb534e6321617",
+    "revision": "89aa67b20093111cafbb",
     "url": "/real-time-chart/static/css/main.2cce8147.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/real-time-chart/static/js/2.642b459c.chunk.js"
   },
   {
-    "revision": "df0a7efcb534e6321617",
-    "url": "/real-time-chart/static/js/main.6c1e607f.chunk.js"
+    "revision": "89aa67b20093111cafbb",
+    "url": "/real-time-chart/static/js/main.7e8e7a51.chunk.js"
   },
   {
     "revision": "50bc6770bc74743a1a38",
