@@ -9,12 +9,12 @@ const yAxesConfig = () => [
   {
     scaleLabel: {
       display: true,
-      labelString: "mv"
+      labelString: "data"
     },
     ticks: {
-      max: 500,
+      max: 42,
       min: 1,
-      stepSize: 50
+      stepSize: 6 
     }
   }
 ];
