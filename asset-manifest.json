@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/real-time-chart/static/css/main.2cce8147.chunk.css",
-    "main.js": "/real-time-chart/static/js/main.7e8e7a51.chunk.js",
-    "main.js.map": "/real-time-chart/static/js/main.7e8e7a51.chunk.js.map",
+    "main.js": "/real-time-chart/static/js/main.9c507e3a.chunk.js",
+    "main.js.map": "/real-time-chart/static/js/main.9c507e3a.chunk.js.map",
     "runtime~main.js": "/real-time-chart/static/js/runtime~main.2d08ada3.js",
     "runtime~main.js.map": "/real-time-chart/static/js/runtime~main.2d08ada3.js.map",
     "static/js/2.642b459c.chunk.js": "/real-time-chart/static/js/2.642b459c.chunk.js",
     "static/js/2.642b459c.chunk.js.map": "/real-time-chart/static/js/2.642b459c.chunk.js.map",
     "index.html": "/real-time-chart/index.html",
-    "precache-manifest.e3d3ff8da977b9223930997e02945c61.js": "/real-time-chart/precache-manifest.e3d3ff8da977b9223930997e02945c61.js",
+    "precache-manifest.d5ef1ac1917ed060df8a5e1817dcb217.js": "/real-time-chart/precache-manifest.d5ef1ac1917ed060df8a5e1817dcb217.js",
     "service-worker.js": "/real-time-chart/service-worker.js",
     "static/css/main.2cce8147.chunk.css.map": "/real-time-chart/static/css/main.2cce8147.chunk.css.map"
   }
