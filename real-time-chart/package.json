@@ -5,12 +5,12 @@
   "dependencies": {
     "chart.js": "^2.8.0",
     "chartjs-plugin-streaming": "^1.8.0",
-    "emitter-io": "^1.38.0",
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",
     "react-chartjs-2": "^2.7.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1"
+    "react-scripts": "3.0.1",
+    "socket.io-client": "^2.2.0"
   },
   "scripts": {
     "predeploy": "npm run build",

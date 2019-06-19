@@ -1,7 +1,7 @@
 import React from "react";
 import { Line } from "react-chartjs-2";
 import "chartjs-plugin-streaming";
-import * as emitter from "emitter-io";
+import io from 'socket.io-client';
 
 const indexPadding = 1;
 
@@ -47,22 +47,13 @@ const datasets = () => {
 class RealTimeChart extends React.Component {
   constructor(props) {
     super(props);
-    this.client = emitter.connect({
-      host: "127.0.0.1",
-      port: 8080,
-      secure: false
-    });
-    this.client.subscribe({
-      key: "NV0RKrY3_qOcLTRnDMyOZ5cGU1vNYEjC",
-      channel: "chart/"
-    });
+    this.socket = io('https://magrathea-io.herokuapp.com/');
     this.sensor1 = [];
   }
 
   componentDidMount() {
-    this.client.on("message", msg => {
-      this.sensor1.push(parseInt(msg.asString()))
-      console.log(msg.asString())
+    this.socket.on("data", data => {
+      this.sensor1.push(parseInt(data.data))
     });
 
   }
